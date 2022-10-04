@@ -1,0 +1,25 @@
+.header {
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__logo {
+    display: block;
+    width: 10%;
+    height: 10%;
+  }
+
+  &__banner {
+    display: block;
+    width: 40%;
+    flex-grow: 0;
+  }
+
+  &__date {
+    display: block;
+    width: 10%;
+    font-size: 10px;
+    color: white;
+  }
+}

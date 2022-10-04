@@ -1,0 +1,16 @@
+.navigation {
+  text-decoration: none;
+
+  &__navList {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__login {
+      color: white;
+      text-transform: uppercase;
+    }
+    &__searchingBar {
+      color: white;
+    }
+  }
+}
